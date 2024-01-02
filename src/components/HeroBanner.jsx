@@ -41,7 +41,7 @@ const HeroBanner = () => {
                         <div className="w-[100px] h-[42px] bg-gradient-to-l from-cyan-500 to-blue-600 flex justify-center items-center font-bold rounded-[5%] object-contain">
                             <button
                                 type='button'
-                                onClick={() => window.open('https://np.linkedin.com/in/prabesh-gupta')}
+                                onClick={() => window.open('https://www.linkedin.com/in/prabeshgupta')}
                             >
                                 Linkedin
                             </button>
