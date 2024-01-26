@@ -1,6 +1,8 @@
 import p1 from "./assets/project-1.png";
 import p2 from "./assets/project-2.png";
 import p3 from "./assets/project-3.png";
+import p4 from "./assets/project-4.png";
+import p5 from "./assets/project-5.png";
 
 export const filters = [
     {
@@ -22,20 +24,26 @@ export const projects = [
         name: "Genius AI Platform",
         image: p1,
         tags: ["website"],
-        url: "https://genius.validsolutions.online",
+        url: "https://genius.prabeshgupta.com.np",
     },
     {
-        name: "Shorticle",
+        name: "Article Summerizer",
         image: p2,
         tags: ["website"],
-        url: "https://shorticle.validsolutions.online",
+        url: "https://shorticle.prabeshgupta.com.np",
     },
     {
-        name: "Minimal Portfolio",
-        image: p3,
+        name: "Discover Business",
+        image: p5,
         tags: ["website"],
-        url: "https://minimal.prabeshgupta.com.np",
-    }
+        url: "https://discover.prabeshgupta.com.np",
+    },
+    {
+        name: "Swift Packers",
+        image: p4,
+        tags: ["wordpress"],
+        url: "https://swift.prabeshgupta.com.np",
+    },
 ];
 
 export const achievements = [
@@ -46,7 +54,7 @@ export const achievements = [
     },
     {
         id: 2,
-        year: 3,
+        year: 4,
         description: "YEARS OF<br />EXPERIENCE",
     },
     {
@@ -56,7 +64,7 @@ export const achievements = [
     },
     {
         id: 4,
-        year: 70,
+        year: 50,
         description: "COMMUNITY<br />POSTS",
     },
 ];
