@@ -5,6 +5,9 @@ import Wrapper from "./Wrapper";
 import Div from "./Div";
 import pe1 from "../assets/sec-4-p-e-1.png";
 import pe2 from "../assets/sec-4-p-e-2.png";
+import client1 from "../assets/client-1.jfif";
+import client2 from "../assets/client-2.jfif";
+import client3 from "../assets/client-3.jfif";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
@@ -49,11 +52,11 @@ const Testimonials = () => {
                         <div className="text-black flex items-center flex-col px-[25px] md:px-[50px] py-[50px]">
                             <div className="mb-[25px]">
                                 <img
-                                    src="https://media.licdn.com/dms/image/D5603AQE_hVF7xJo1CA/profile-displayphoto-shrink_800_800/0/1691853036322?e=1701907200&v=beta&t=1tCMtog3qBamu8mXK39RgwEiet-h0wrVTGSN9F8vtwE"
+                                    src={client1}
                                     className="w-[80px] h-[80px] max-w-[80px] rounded-full"
                                     alt="Prabesh Gupta - Graphic Designer Client"
                                 />
-                                <div className="font-bold">Shovit Nepal</div>
+                                <div className="font-bold">Yash Paudel</div>
                                 <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
                                     Graphic Designer Client
                                 </div>
@@ -67,7 +70,7 @@ const Testimonials = () => {
                         <div className="text-black flex items-center flex-col px-[25px] md:px-[50px] py-[50px]">
                             <div className="mb-[25px]">
                                 <img
-                                    src="https://media.licdn.com/dms/image/D4D03AQEqBStLC-fZYA/profile-displayphoto-shrink_400_400/0/1671113638623?e=1701907200&v=beta&t=6FeDsVjmKCT3NUgy1eCAwk6nHCA9dw4C68E1sAlQpoM"
+                                    src={client2}
                                     className="w-[80px] h-[80px] max-w-[80px] rounded-full"
                                     alt="Prabesh - UX/UI Client"
                                 />
@@ -85,7 +88,7 @@ const Testimonials = () => {
                         <div className="text-black flex items-center flex-col px-[25px] md:px-[50px] py-[50px]">
                             <div className="mb-[25px]">
                                 <img
-                                    src="https://media.licdn.com/dms/image/D5603AQEkoEtRJ4Qm1A/profile-displayphoto-shrink_800_800/0/1687681072089?e=1701907200&v=beta&t=2lyP5XOgo2KSqWqW-1xh2BY5Iy-3VwAivlaoiV9WAwU"
+                                    src={client3}
                                     className="w-[80px] h-[80px] max-w-[80px] rounded-full"
                                     alt="Prabesh - Web developer Client"
                                 />
