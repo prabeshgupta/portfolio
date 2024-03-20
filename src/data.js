@@ -3,6 +3,8 @@ import p2 from "./assets/project-2.png";
 import p3 from "./assets/project-3.png";
 import p4 from "./assets/project-4.png";
 import p5 from "./assets/project-5.png";
+import p5 from "./assets/project-6.png";
+import p5 from "./assets/project-7.png";
 
 export const filters = [
     {
@@ -44,12 +46,24 @@ export const projects = [
         tags: ["wordpress"],
         url: "https://swift.prabeshgupta.com.np",
     },
+    {
+        name: "Stylon",
+        image: p6,
+        tags: ["website"],
+        url: "https://stylon.vercel.app",
+    },
+    {
+        name: "Google Gemini",
+        image: p7,
+        tags: ["website"],
+        url: "https://gemini.prabeshgupta.com.np",
+    }
 ];
 
 export const achievements = [
     {
         id: 1,
-        year: 10,
+        year: 30,
         description: "SUCCESSFULLY<br />COMPLETED<br />PROJECTS",
     },
     {
@@ -64,7 +78,7 @@ export const achievements = [
     },
     {
         id: 4,
-        year: 50,
+        year: 60,
         description: "COMMUNITY<br />POSTS",
     },
 ];
