@@ -5,6 +5,7 @@ import p4 from "./assets/project-4.png";
 import p5 from "./assets/project-5.png";
 import p6 from "./assets/project-6.png";
 import p7 from "./assets/project-7.png";
+import p8 from "./assets/project-8.png";
 
 export const filters = [
     {
@@ -57,13 +58,19 @@ export const projects = [
         image: p7,
         tags: ["website"],
         url: "https://gemini.prabeshgupta.com.np",
+    },
+    {
+        name: "Freepani Nepal",
+        image: p8,
+        tags: ["wordpress"],
+        url: "https://freepaninepal.com",
     }
 ];
 
 export const achievements = [
     {
         id: 1,
-        year: 30,
+        year: 45,
         description: "SUCCESSFULLY<br />COMPLETED<br />PROJECTS",
     },
     {
