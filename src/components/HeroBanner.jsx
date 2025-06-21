@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Wrapper from "./Wrapper";
 import man from "../assets/man.png";
 import externalLinkIcon from "../assets/external-link-icon.png";
-import PrabeshGuptaCV from '../assets/Prabesh_Gupta_CV.pdf';
 import { scrollTo } from "../helper";
 import { useFollowPointer } from "./useFollowPointer";
 
@@ -12,14 +11,14 @@ const HeroBanner = () => {
     const ref = useRef(null);
     const { x, y } = useFollowPointer(ref);
 
-    const handleDownload = () => {
-        const link = document.createElement('a');
-        link.href = PrabeshGuptaCV;
-        link.download = 'Prabesh_Gupta_CV.pdf';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
+    // const handleDownload = () => {
+    //     const link = document.createElement('a');
+    //     link.href = PrabeshGuptaCV;
+    //     link.download = 'Prabesh_Gupta_CV.pdf';
+    //     document.body.appendChild(link);
+    //     link.click();
+    //     document.body.removeChild(link);
+    // };
 
     return (
         <div
@@ -130,7 +129,7 @@ const HeroBanner = () => {
                     <img src={man} alt="Prabesh Gupta - Portfolio Image" />
 
                     {/* HIRE ME BUTTON START */}
-                    <div
+                    {/* <div
                         className="absolute top-[140px] -right-10 2xl:top-[240px] 2xl:-right-10 w-[140px] h-[140px] rounded-full bg-white/[0.7] flex justify-center items-center gap-2 backdrop-blur-sm cursor-pointer transition-transform scale-[0.65] md:scale-100 active:scale-[0.55] md:active:scale-90"
                         onClick={handleDownload}
                     >
@@ -142,7 +141,25 @@ const HeroBanner = () => {
                                 className="w-[15px] mt-5 ml-[-16px]"
                             />
                         </div>
-                    </div>
+                    </div> */}
+
+                    <a
+                        href="https://app.sajilocv.com/cv/a830f84d-763f-4c00-80a3-cb68e893c7c8"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="absolute top-[140px] -right-10 2xl:top-[240px] 2xl:-right-10 w-[140px] h-[140px] rounded-full bg-white/[0.7] flex justify-center items-center gap-2 backdrop-blur-sm cursor-pointer transition-transform scale-[0.65] md:scale-100 active:scale-[0.55] md:active:scale-90"
+                    >
+                        <div className="flex items-center">
+                            <div className="text-black text-center text-[22px] leading-tight">
+                                View<br />CV
+                            </div>
+                            <img
+                                src={externalLinkIcon}
+                                alt="View Prabesh Gupta's CV"
+                                className="w-[12px] mt-5 rotate-[-90deg]"
+                            />
+                        </div>
+                    </a>
                     {/* HIRE ME BUTTON END */}
                 </motion.div>
                 {/* PERSON BLOCK END */}

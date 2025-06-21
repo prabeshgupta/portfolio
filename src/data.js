@@ -6,6 +6,8 @@ import p5 from "./assets/project-5.png";
 import p6 from "./assets/project-6.png";
 import p7 from "./assets/project-7.png";
 import p8 from "./assets/project-8.png";
+import p9 from "./assets/project-9.png";
+import p10 from "./assets/project-10.png";
 
 export const filters = [
     {
@@ -64,6 +66,18 @@ export const projects = [
         image: p8,
         tags: ["wordpress"],
         url: "https://freepaninepal.com",
+    },
+    {
+        name: "Language Translator",
+        image: p9,
+        tags: ["website"],
+        url: "https://translator.prabeshgupta.com.np",
+    },
+    {
+        name: "Ecommerce Website",
+        image: p10,
+        tags: ["wordpress"],
+        url: "https://cctvandcomputerbazar.com",
     }
 ];
 

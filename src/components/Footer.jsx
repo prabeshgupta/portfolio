@@ -16,8 +16,8 @@ const Footer = () => {
 
                             <img src={gmailIcon} alt="Prabesh Gupta - Contact Email" className="w-[32px]" />
                         </div>
-                        <a href="mailto:admin@prabeshgupta.com.np">
-                            <div>admin@prabeshgupta.com.np</div>
+                        <a href="mailto:prabeshgupta217@gmail.com">
+                            <div>prabeshgupta217@gmail.com</div>
                         </a>
                     </div>
                     <div className="flex items-center gap-[6px]">
@@ -25,7 +25,7 @@ const Footer = () => {
                             <img src={phoneIcon} alt="Prabesh Gupta - Contact Number" className="w-[32px]" />
                         </div>
                         <a href="tel:+9779748300278">
-                            <div>+977 9748300278</div>
+                            <div>+977 9818567521</div>
                         </a>
                     </div>
                     <ul className="flex 2xl:text-[20px] gap-5 md:gap-8">
