@@ -1,5 +1,3 @@
-import React from "react";
-
 import Wrapper from "./Wrapper";
 import gmailIcon from "../assets/email-icon.png";
 import phoneIcon from '../assets/phone-icon.png';
