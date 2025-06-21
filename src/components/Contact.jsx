@@ -1,5 +1,3 @@
-import React from "react";
-
 import Wrapper from "./Wrapper";
 import Form from "./Form";
 import Div from "./Div";

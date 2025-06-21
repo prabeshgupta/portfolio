@@ -1,4 +1,3 @@
-import React from "react";
 import Div from "./Div";
 
 const Service = ({ num, title, desc, data }) => {

@@ -1,4 +1,3 @@
-import React from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
 
 import Wrapper from "./Wrapper";
@@ -40,7 +39,7 @@ const AboutMe = () => {
 
                 {/* PARAGRAPH START */}
                 <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative font-inter font-semibold text-gray-700">
-                    Hello, my name is <strong>Prabesh Gupta</strong>. I am twenty-one years old. My birthday is the 17th of October. I currently reside in Kathmandu. My village is in Mahottari, Janakpur. I joined The Insight Vision Secondary School from nursery through fourth grade. Following that, I completed my studies at Nexus International Academy, where I received my first educational certificate. Then, for higher study, I enrolled in VS Niketan Higher Secondary School in the Science Faculty. Presently, I'm pursuing a Bachelor's Degree in Computer Applications.
+                    Hello, my name is <strong>Prabesh Gupta</strong>. I am twenty-three years old. My birthday is the 17th of October. I currently reside in Kathmandu. My village is in Mahottari, Janakpur. I joined The Insight Vision Secondary School from nursery through fourth grade. Following that, I completed my studies at Nexus International Academy, where I received my first educational certificate. Then, for higher study, I enrolled in VS Niketan Higher Secondary School in the Science Faculty. Presently, I'm pursuing a Bachelor's Degree in Computer Applications.
                 </Div>
                 {/* PARAGRAPH END */}
 
