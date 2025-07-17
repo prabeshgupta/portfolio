@@ -22,7 +22,7 @@ const Footer = () => {
                         <div className="w-[35px] h-[35px] rounded-full bg-transparent flex justify-center items-center">
                             <img src={phoneIcon} alt="Prabesh Gupta - Contact Number" className="w-[32px]" />
                         </div>
-                        <a href="tel:+9779748300278">
+                        <a href="tel:+9779818567521">
                             <div>+977 9818567521</div>
                         </a>
                     </div>
